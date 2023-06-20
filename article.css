@@ -482,7 +482,7 @@ a {
 }
 
 .form {
-    max-width: 640px;
+    width: 640px;
     height: 313px;
     margin: 114px auto 129px;
     background: #FFFFFF;
@@ -805,9 +805,12 @@ footer address {
         border-left: none;
         border-right: none;
         margin: 42px 0 0 0;
+        width: 100%;
     }
     .form h4{
         font-size: 29px;
+        text-align: center;
+        margin: 52px auto 18px;
     }
     .form p{
         font-size: 16px;
